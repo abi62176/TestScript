@@ -1,0 +1,45 @@
+{
+  "name": "hubot-tasks-spark",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Abhi",
+  "description": "Tasks manager for hubot with spark adapter",
+  "dependencies": {
+    "hubot": "^2.19.0",
+    "hubot-diagnostics": "0.0.1",
+    "hubot-google-images": "^0.2.6",
+    "hubot-google-translate": "^0.2.0",
+    "hubot-help": "^0.2.0",
+    "hubot-heroku-keepalive": "^1.0.2",
+    "hubot-maps": "0.0.2",
+    "hubot-pugme": "^0.1.0",
+    "hubot-redis-brain": "0.0.3",
+    "hubot-rules": "^0.1.1",
+    "hubot-scripts": "^2.17.2",
+    "hubot-shipit": "^0.2.0",
+    "hubot-spark": "^1.7.1",
+    "lodash": "^4.13.1"
+  },
+  "engines": {
+    "node": "6.2.x"
+  },
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script --require coffee-script/register",
+    "coverage": "mocha && istanbul report text-summary lcov"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coffee-coverage": "^1.0.1",
+    "coffee-script": "^1.10.0",
+    "dirty-chai": "^1.2.2",
+    "eslint": "^2.11.1",
+    "hubot-test-helper": "^1.4.4",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.5.3"
+  }
+}
