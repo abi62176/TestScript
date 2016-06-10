@@ -6,6 +6,7 @@
   "description": "Tasks manager for hubot with spark adapter",
   "dependencies": {
     "hubot": "^2.19.0",
+    "hubot-calculator": "^0.4.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "^0.2.6",
     "hubot-google-translate": "^0.2.0",
@@ -29,8 +30,7 @@
     "url": "."
   },
   "scripts": {
-    "test": "mocha --compilers coffee:coffee-script --require coffee-script/register",
-    "coverage": "mocha && istanbul report text-summary lcov"
+    "test": "mocha --compilers coffee:coffee-script --require coffee-script/register"
   },
   "devDependencies": {
     "chai": "^3.5.0",
